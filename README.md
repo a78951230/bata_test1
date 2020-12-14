@@ -26,11 +26,11 @@ tensorflow-gpu 安裝
     import tensorflow as tf
     import keras
 ```
-如果沒出現報錯，應該就表示已經成功安裝。我們可以來看一下現在的版本
+如果沒出現報錯，應該就表示已經成功安裝。我們可以來看一下現在的版本。
 ```python
 tf.__version__
-然後確定一下是否有使用到 GPU
 ```
+然後確定一下是否有使用到 GPU。
 ```python
 tf.test.is_gpu_available()
 ```
