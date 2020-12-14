@@ -59,5 +59,7 @@ tf.test.is_gpu_available()
 
 # 圖片標註
 <p float="left">
-   <img src="/img/l.jpg" width="536"/>
+   <img src="/img/l3.jpg" width="536"/>
 </p>
+
+    Save->bata_test1/test or bata_test1/train
