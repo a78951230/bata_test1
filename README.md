@@ -63,3 +63,8 @@ tf.test.is_gpu_available()
 </p>
 
     Save->bata_test1/test or bata_test1/train
+XML-->TXT:
+
+    cd /bata_test1
+    python xml_to_csv.py and xml_to_csv_train.py
+    
