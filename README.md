@@ -15,7 +15,7 @@
     conda create -n your_env_name python=3.6 anaconda
 切換環境
 
-    activate tf2.0
+    activate your_env_name
 tensorflow-gpu 安裝
 
     pip install tensorflow-gpu==2.0.0beta1
@@ -56,3 +56,5 @@ tf.test.is_gpu_available()
 <p float="left">
    <img src="/img/l2.jpg" width="536"/>
 </p>
+
+# 圖片標註
