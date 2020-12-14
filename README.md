@@ -3,7 +3,7 @@
 # LabelImg
 - https://tzutalin.github.io/labelImg/
 <p float="left">
-    <img src="https://github.com/a78951230/faster-rcnn-tf2/tree/main/img/l1.png" width="425"/> 
+    <img src="https://github.com/a78951230/faster-rcnn-tf2/tree/main/img/l1.jpg" width="600"/> 
 </p>
 # vgg-16
 - https://github.com/fchollet/deep-learning-models/releases 
