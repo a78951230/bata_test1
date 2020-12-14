@@ -58,3 +58,6 @@ tf.test.is_gpu_available()
 </p>
 
 # 圖片標註
+<p float="left">
+   <img src="/img/l.jpg" width="536"/>
+</p>
