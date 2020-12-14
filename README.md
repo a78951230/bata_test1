@@ -108,3 +108,47 @@ XML-->TXT:
  <p float="left">
    <img src="/img/l5.png" width="755"/>
 </p>
+
+# train
+
+    activate your_env_name
+    jupyter notebook
+    open frcnn_train_vgg.ipynb
+路徑修改:
+```python
+base_path = 'bata_test1'#路徑
+
+train_path =  'bata_test1/annotation.txt' #訓練檔案路徑
+
+num_rois = 4
+
+# Augmentation flag
+horizontal_flips = True #訓練中水平翻轉增強
+vertical_flips = True   #訓練中垂直翻轉增強
+rot_90 = True           #訓練中旋轉90度增強
+
+output_weight_path = os.path.join(base_path, 'model/model_frcnn_vgg.hdf5')#權重檔
+record_path = os.path.join(base_path, 'model/record.csv')#記錄數據（用於節省損失，分類精度和平均平均精度）
+base_weight_path = os.path.join(base_path, 'model/vgg16_weights_tf_dim_ordering_tf_kernels.h5')#vgg16預訓練模型
+config_output_filename = os.path.join(base_path, 'model_vgg_config.pickle')#設定檔
+```
+訓練次數及一次性丟入張數:
+```python
+epoch_length = 464  #一次張數
+num_epochs = 35 #次數
+```
+訓練時出現:
+
+    RuntimeError: CUDA out of memory. Tried to allocate 146.88 MiB (GPU 0; 2.00 GiB total capacity; 374.63 MiB already allocated; 0 bytes free; 1015.00 KiB cached)
+    
+開頭請補上:
+```python    
+config = tf.compat.v1.ConfigProto()
+config.gpu_options.per_process_gpu_memory_fraction = 0.7
+sess = tf.compat.v1.InteractiveSession(config=config)
+```
+# test
+
+    activate your_env_name
+    jupyter notebook
+    open frcnn_test_vgg.ipynb
