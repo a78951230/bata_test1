@@ -29,7 +29,7 @@ tensorflow-gpu 安裝
 安裝錯誤部分:
 
     ImportError: DLL load failed: 找不到指定的模块
-請查詢: - https://www.tensorflow.org/install/source_windows
+請查詢: https://www.tensorflow.org/install/source_windows <br />
 如果沒出現報錯，應該就表示已經成功安裝。我們可以來看一下現在的版本。
 
 ```python
