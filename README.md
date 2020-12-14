@@ -9,6 +9,35 @@
 # vgg-16
 - https://github.com/fchollet/deep-learning-models/releases 
 
+# 檔案架構
+
+frcnn_test_vgg.ipynb  
+frcnn_train_vgg.ipynb  
+xml_to_csv_txt.ipynb  
+bata_test1  
+-----| README.md  
+-----| img  
+-----| xml_to_csv_train.py  
+-----| xml_to_csv.py  
+-----| model  
+----------|  model_frcnn_vgg.hdf5  
+----------|  record.csv  
+----------| vgg16_weights_tf_dim_ordering_tf_kernels.h5  
+-----| dataset  
+----------| test  
+--------------|  1.jpg  
+--------------|  2.jpg  
+----------|  train  
+--------------|  1.jpg  
+--------------|  2.jpg  
+-----| test  
+----------|  1.xml  
+----------|  2.xml  
+-----| train  
+----------|  1.xml  
+----------|  2.xml  
+
+
 # requirements.txt
 環境安裝
 
@@ -70,4 +99,12 @@ XML-->TXT:
 <p float="left">
    <img src="/img/l4.png" width="746"/>
 </p>
+     
+    activate your_env_name
+    jupyter notebook
+    open xml_to_csv_txt.ipynb
+    Cell-->Run All
     
+ <p float="left">
+   <img src="/img/l5.png" width="755"/>
+</p>
