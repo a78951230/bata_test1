@@ -148,7 +148,7 @@ config.gpu_options.per_process_gpu_memory_fraction = 0.7
 sess = tf.compat.v1.InteractiveSession(config=config)
 ```
 
-沒問題
+
     
     Cell-->Run All
 # test
@@ -169,6 +169,6 @@ for i in range(100): #清單數量
 	idx = np.random.randint(len(test_imgs))#隨機抓取
 	imgs_path.append(test_imgs[i])#imgs_path.append(test_imgs[idx])
 ```
-沒問題
+
     
     Cell-->Run All
