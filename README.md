@@ -23,8 +23,8 @@ tensorflow-gpu 安裝
     conda install cudatoolkit=10.0.130
 測試
 ```python
-    import tensorflow as tf
-    import keras
+import tensorflow as tf
+import keras
 ```
 安裝錯誤部分:
 
