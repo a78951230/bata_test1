@@ -10,7 +10,8 @@
 - https://github.com/fchollet/deep-learning-models/releases 
 
 # requirements.txt
-環境安裝
+--環境安裝
+
     conda create -n your_env_name python=3.6 anaconda
     activate tf2.0
     
