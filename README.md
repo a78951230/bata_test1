@@ -67,4 +67,7 @@ XML-->TXT:
 
     cd /bata_test1
     python xml_to_csv.py and xml_to_csv_train.py
+<p float="left">
+   <img src="/img/l4.png" width="746"/>
+</p>
     
