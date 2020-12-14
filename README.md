@@ -8,3 +8,6 @@
 
 # vgg-16
 - https://github.com/fchollet/deep-learning-models/releases 
+
+# requirements.txt
+    pip install tensorflow-gpu==2.0.0beta1
