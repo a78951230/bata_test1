@@ -147,8 +147,28 @@ config = tf.compat.v1.ConfigProto()
 config.gpu_options.per_process_gpu_memory_fraction = 0.7
 sess = tf.compat.v1.InteractiveSession(config=config)
 ```
+
+沒問題
+    
+    Cell-->Run All
 # test
 
     activate your_env_name
     jupyter notebook
     open frcnn_test_vgg.ipynb
+路徑修改:
+```python
+base_path = 'bata_test1'#路徑
+test_path = 'bata_test1/test_annotation.txt' #測試檔案路徑
+test_base_path = 'bata_test1/dataset/test' #圖片路徑
+config_output_filename = os.path.join(base_path, 'model_vgg_config.pickle')#設定檔
+```
+測試張數修改:
+```python
+for i in range(100): #清單數量
+	idx = np.random.randint(len(test_imgs))#隨機抓取
+	imgs_path.append(test_imgs[i])#imgs_path.append(test_imgs[idx])
+```
+沒問題
+    
+    Cell-->Run All
