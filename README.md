@@ -13,10 +13,15 @@
 環境安裝
 
     conda create -n your_env_name python=3.6 anaconda
+切換環境
+
     activate tf2.0
 套件安裝
 
     pip install tensorflow-gpu==2.0.0beta1
     conda install cudnn=7.6.0
     conda install cudatoolkit=10.0.130
-
+    pip install numpy
+    pip install opencv-python
+    pip install scikit-metrics
+    pip install matplotlib
