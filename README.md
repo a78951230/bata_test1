@@ -48,3 +48,8 @@ tf.test.is_gpu_available()
     pip install scikit-metrics
     pip install matplotlib
     pip install pandas
+查看套件
+
+    conda list
+    or
+    pip list
