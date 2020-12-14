@@ -53,3 +53,6 @@ tf.test.is_gpu_available()
     conda list
     or
     pip list
+<p float="left">
+   <img src="/img/l2.jpg" width="536"/>
+</p>
